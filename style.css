@@ -24,6 +24,13 @@ body {
 }
 
 @font-face {
+  font-family: 'DolphinBar'; /* Defina o nome da sua fonte */
+  src: url('./fonts/Dolphinbarerestaurant-Regular.ttf') format('truetype'); /* Caminho para o arquivo .ttf */
+  font-weight: normal; /* Peso da fonte */
+  font-style: normal;  /* Estilo da fonte */
+}
+
+@font-face {
   font-family: 'RifficFree-Bold'; /* Defina o nome da sua fonte */
   src: url('./fonts/RifficFree-Bold.ttf') format('truetype'); /* Caminho para o arquivo .ttf */
   font-weight: normal; /* Peso da fonte */
@@ -107,7 +114,7 @@ ul.links li:not(:last-child) {
 .tituloft {
   text-align: center;
   color: #ffffff;
-  font-family:'RifficFree-Bold', sans-serif;
+  font-family:'Dolphinbar', sans-serif;
   font-size: 30px;
   letter-spacing: 1px;
 }
